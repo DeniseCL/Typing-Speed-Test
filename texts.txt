@@ -1,0 +1,4 @@
+text1|The quick brown fox jumps over the lazy dog.
+text2|Python is an amazing programming language to learn.
+text3|Speed typing helps to improve both accuracy and efficiency.
+text4|Consistent practice is the key to mastering any skill.
