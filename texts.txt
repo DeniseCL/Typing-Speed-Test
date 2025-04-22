@@ -2,3 +2,5 @@ text1|The quick brown fox jumps over the lazy dog.
 text2|Python is an amazing programming language to learn.
 text3|Speed typing helps to improve both accuracy and efficiency.
 text4|Consistent practice is the key to mastering any skill.
+text5|Learning to code is like learning a new language—it requires patience, practice, and a willingness to make mistakes. But every bug you fix makes you a better problem solver.
+text6|Graphical interfaces in Python open the door to interactive applications. Tkinter provides a beginner-friendly way to create windows, buttons, text boxes, and more.

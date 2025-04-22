@@ -13,7 +13,7 @@ class TypingSpeed:
 
         # Set desired window size
         window_width = 700
-        window_height = 600
+        window_height = 700
 
         # Get screen dimensions
         screen_width = self.root.winfo_screenwidth()
@@ -36,14 +36,14 @@ class TypingSpeed:
             text="Choose the text you want to use in your test:",
             font=("Arial", 14)
         )
-        text_entry_label.pack(pady=(20, 5))
+        text_entry_label.pack(pady=(15, 5))
 
         # Dropdown menu
         self.selected_option = tk.StringVar(root)
         self.selected_option.set(self.option_list[0])
         self.dropdown = tk.OptionMenu(root, self.selected_option, *self.option_list)
         self.dropdown.config(width=9, font=("Arial", 16))
-        self.dropdown.pack(pady=20)
+        self.dropdown.pack(pady=15)
 
         # Show selected text
         self.button_show_selected_text = tk.Button(text="Show Text", command=self.show_selected_text, width=10)
@@ -52,7 +52,7 @@ class TypingSpeed:
         # Show the selected text
         self.text_display = tk.Text(self.root, height=6, width=100, font=("Arial", 14), wrap="word")
         self.text_display.configure(state="disabled")  # Initially disabled
-        self.text_display.pack(pady=20)
+        self.text_display.pack(pady=15)
 
         # Label input box
         text_entry_label = tk.Label(
@@ -60,7 +60,7 @@ class TypingSpeed:
             text="Press 'enter' or click the 'Submit' button to submit your test.",
             font=("Arial", 14)
         )
-        text_entry_label.pack(pady=(20, 5))
+        text_entry_label.pack(pady=(15, 5))
 
         # Create typing input box
         self.typing_box = tk.Text(self.root, height=6, width=100, font=("Courier New", 12))
